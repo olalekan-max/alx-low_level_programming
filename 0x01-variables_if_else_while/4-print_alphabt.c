@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - print some letter of alphabet
@@ -13,7 +11,7 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != e && low != q)
+		if (c != e && c != q)
 		{
 			putchar(c);
 		}
