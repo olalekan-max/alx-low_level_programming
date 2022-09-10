@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - print some letter of alphabet
+ * main - prints some letter of this alphabet
  *
- * Return: Always 0 (success)
+ * Return:Always 0 (Success)
  */
+
 int main(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != 'e' && c != 'q')
+		if (c != 'e'; && c != 'q')
 		{
 			putchar(c);
 		}
-	}
 
-	putchar('\n');
-
-	return (0);
+		putchar('\n');
+		return (0);
+}
