@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include <stdio.h>>
 
 /**
  * main - prints the alphabetic in lowercase and uppercase
@@ -19,6 +17,8 @@ int main(void)
 	for (c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(c);
+	}
+
 		putchar('\n');
 
 		return (0);
