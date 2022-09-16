@@ -2,16 +2,19 @@
 #include "main.h"
 
 /**
- * print-line - prints a straight line
- * @n: input number of times to print '_'
- * Return: a straight line
+ * print_line - print lines
+ * @n: number of times
+ *
+ * Return: void
  */
 
 void print_line(int n)
 {
-	while (n-- > 0)
+	int i;
+
+	for (i = 0; i < n; i++)
 	{
-		putchar('_');
+		_putchar('_');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
