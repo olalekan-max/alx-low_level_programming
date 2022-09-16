@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- *print_most_numbers.c - prints numbers except 2 and 4
+ * print_most_numbers - prints number except 2 and 4
  *
- * Return: return nothing
+ * Return: returns nothing
  */
 
 void print_most_numbers(void)
@@ -18,5 +19,4 @@ void print_most_numbers(void)
 		}
 		putchar(n);
 	}
-	putchar(10);
 }

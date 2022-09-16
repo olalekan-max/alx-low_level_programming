@@ -4,7 +4,7 @@
 /**
  * print-line - prints a straight line
  * @n: input number of times to print '_'
- * Return: a straight lin
+ * Return: a straight line
  */
 
 void print_line(int n)
