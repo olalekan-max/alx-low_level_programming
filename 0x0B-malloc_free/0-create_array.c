@@ -1,3 +1,4 @@
+#include "notrebloh.h"
 #include "main.h"
 #include <stdlib.h>
 /**
@@ -11,18 +12,25 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *array;
-	unsigned int index;
+	char *s;
+	unsigned int i;
 
 	if (size == 0)
+	{
 		return (Null);
-	array = malloc(sizeof(char) * size);
+	}
 
-	if (array == Null)
+	s = malloc((size) * sizeof(char));
+	if (s == Null)
+	{
 		return (Null);
-
-	for (index = 0; index < size; index++)
-		array[index] = c;
-
-	return (array);
+	}
+	i = 0;
+	while (i < size)
+	{
+		s[i] = c;
+		i++;
+	}
+	s[i] = '\0';
+	return (s);
 }
