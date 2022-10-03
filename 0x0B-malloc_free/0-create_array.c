@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -23,8 +22,7 @@ char *create_array(unsigned int size, char c)
 		return (Null);
 
 	for (index = 0; index < size; index++)
-	{
 		array[index] = c;
-	}
+
 	return (array);
 }
