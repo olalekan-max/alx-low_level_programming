@@ -1,13 +1,12 @@
-#include "notrebloh.h"
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+
 /**
- * create_array - creates an array of chars, and
- * initializes it with a specific char
- * @size: size of the array
- * @c: character to insert
- * Return: Null if size is zero or if it fails
- * pointer to array if everthing is normal.
+ * create_array - create an array of size with char c
+ * @size: unsigned int type
+ * @c: char type
+ * Return: Return pointer to array created
  */
 
 char *create_array(unsigned int size, char c)
