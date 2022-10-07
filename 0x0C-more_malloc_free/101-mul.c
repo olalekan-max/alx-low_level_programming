@@ -148,6 +148,6 @@ int main(int argc, char *argv[])
 			exit(98);
 		}
 	}
-	_putchar(a, ln - 1);
+	_print(a, ln - 1);
 	return (0);
 }
